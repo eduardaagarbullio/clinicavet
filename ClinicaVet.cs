@@ -76,13 +76,22 @@ namespace clinicaVet
             txtRaca.Text = "";
             txtDono.Text = "";
             txtDiag.Text = "";
-            txtNome.Text = "";   
+            txtNome.Text = "";
             txtProblema.Text = "";
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-
+            txtDiag.Text = "";
+            txtDono.Text = "";
+            txtNumTel.Text = "";
+            txtEndereco.Text = "";
+            txtVet.Text = "";
+            txtRaca.Text = "";
+            txtDono.Text = "";
+            txtDiag.Text = "";
+            txtNome.Text = "";
+            txtProblema.Text = "";
         }
     }
 }

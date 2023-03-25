@@ -52,194 +52,226 @@
             ltvTodos = new ListView();
             btnSave = new Button();
             btnClear = new Button();
+            label1 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(57, 111);
+            txtNome.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNome.Location = new Point(50, 83);
+            txtNome.Margin = new Padding(3, 2, 3, 2);
             txtNome.Name = "txtNome";
-            txtNome.Size = new Size(190, 27);
+            txtNome.Size = new Size(167, 26);
             txtNome.TabIndex = 0;
             // 
             // lblNome
             // 
             lblNome.AutoSize = true;
-            lblNome.Location = new Point(57, 88);
+            lblNome.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblNome.Location = new Point(50, 63);
             lblNome.Name = "lblNome";
-            lblNome.Size = new Size(53, 20);
+            lblNome.Size = new Size(50, 18);
             lblNome.TabIndex = 1;
             lblNome.Text = "Nome:";
             // 
             // lblEnd
             // 
             lblEnd.AutoSize = true;
-            lblEnd.Location = new Point(57, 183);
+            lblEnd.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblEnd.Location = new Point(50, 134);
             lblEnd.Name = "lblEnd";
-            lblEnd.Size = new Size(74, 20);
+            lblEnd.Size = new Size(72, 18);
             lblEnd.TabIndex = 3;
             lblEnd.Text = "Endereço:";
             // 
             // txtEndereco
             // 
-            txtEndereco.Location = new Point(57, 206);
+            txtEndereco.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtEndereco.Location = new Point(50, 154);
+            txtEndereco.Margin = new Padding(3, 2, 3, 2);
             txtEndereco.Name = "txtEndereco";
-            txtEndereco.Size = new Size(386, 27);
+            txtEndereco.Size = new Size(338, 26);
             txtEndereco.TabIndex = 2;
             // 
             // lblRaca
             // 
             lblRaca.AutoSize = true;
-            lblRaca.Location = new Point(253, 88);
+            lblRaca.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblRaca.Location = new Point(221, 63);
             lblRaca.Name = "lblRaca";
-            lblRaca.Size = new Size(44, 20);
+            lblRaca.Size = new Size(42, 18);
             lblRaca.TabIndex = 5;
             lblRaca.Text = "Raça:";
             // 
             // txtRaca
             // 
-            txtRaca.Location = new Point(253, 111);
+            txtRaca.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtRaca.Location = new Point(221, 83);
+            txtRaca.Margin = new Padding(3, 2, 3, 2);
             txtRaca.Name = "txtRaca";
-            txtRaca.Size = new Size(190, 27);
+            txtRaca.Size = new Size(167, 26);
             txtRaca.TabIndex = 4;
             // 
             // lblDiag
             // 
             lblDiag.AutoSize = true;
-            lblDiag.Location = new Point(955, 88);
+            lblDiag.Location = new Point(836, 66);
             lblDiag.Name = "lblDiag";
-            lblDiag.Size = new Size(92, 20);
+            lblDiag.Size = new Size(73, 15);
             lblDiag.TabIndex = 7;
             lblDiag.Text = "Diagnóstico:";
             // 
             // txtDiag
             // 
-            txtDiag.Location = new Point(955, 111);
+            txtDiag.Location = new Point(836, 83);
+            txtDiag.Margin = new Padding(3, 2, 3, 2);
             txtDiag.Name = "txtDiag";
-            txtDiag.Size = new Size(262, 27);
+            txtDiag.Size = new Size(230, 23);
             txtDiag.TabIndex = 6;
             // 
             // lblProblema
             // 
             lblProblema.AutoSize = true;
-            lblProblema.Location = new Point(725, 183);
+            lblProblema.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblProblema.Location = new Point(634, 134);
             lblProblema.Name = "lblProblema";
-            lblProblema.Size = new Size(76, 20);
+            lblProblema.Size = new Size(71, 18);
             lblProblema.TabIndex = 9;
             lblProblema.Text = "Problema:";
             // 
             // txtProblema
             // 
-            txtProblema.Location = new Point(725, 206);
+            txtProblema.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtProblema.Location = new Point(634, 154);
+            txtProblema.Margin = new Padding(3, 2, 3, 2);
             txtProblema.Multiline = true;
             txtProblema.Name = "txtProblema";
-            txtProblema.Size = new Size(492, 143);
+            txtProblema.Size = new Size(431, 108);
             txtProblema.TabIndex = 8;
             // 
             // lblDono
             // 
             lblDono.AutoSize = true;
-            lblDono.Location = new Point(461, 88);
+            lblDono.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblDono.Location = new Point(403, 63);
             lblDono.Name = "lblDono";
-            lblDono.Size = new Size(92, 20);
+            lblDono.Size = new Size(85, 18);
             lblDono.TabIndex = 11;
             lblDono.Text = "Nome dono:";
             // 
             // txtDono
             // 
-            txtDono.Location = new Point(461, 111);
+            txtDono.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtDono.Location = new Point(403, 83);
+            txtDono.Margin = new Padding(3, 2, 3, 2);
             txtDono.Name = "txtDono";
-            txtDono.Size = new Size(190, 27);
+            txtDono.Size = new Size(167, 26);
             txtDono.TabIndex = 10;
             // 
             // lblVet
             // 
             lblVet.AutoSize = true;
-            lblVet.Location = new Point(725, 88);
+            lblVet.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblVet.Location = new Point(634, 63);
             lblVet.Name = "lblVet";
-            lblVet.Size = new Size(84, 20);
+            lblVet.Size = new Size(80, 18);
             lblVet.TabIndex = 13;
             lblVet.Text = "Veterinário:";
             // 
             // txtVet
             // 
-            txtVet.Location = new Point(725, 111);
+            txtVet.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtVet.Location = new Point(634, 83);
+            txtVet.Margin = new Padding(3, 2, 3, 2);
             txtVet.Name = "txtVet";
-            txtVet.Size = new Size(190, 27);
+            txtVet.Size = new Size(167, 26);
             txtVet.TabIndex = 12;
             // 
             // lblNumTel
             // 
             lblNumTel.AutoSize = true;
-            lblNumTel.Location = new Point(461, 183);
+            lblNumTel.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblNumTel.Location = new Point(403, 134);
             lblNumTel.Name = "lblNumTel";
-            lblNumTel.Size = new Size(146, 20);
+            lblNumTel.Size = new Size(138, 18);
             lblNumTel.TabIndex = 15;
             lblNumTel.Text = "Número de telefone:";
             // 
             // txtNumTel
             // 
-            txtNumTel.Location = new Point(461, 206);
+            txtNumTel.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNumTel.Location = new Point(403, 154);
+            txtNumTel.Margin = new Padding(3, 2, 3, 2);
             txtNumTel.Name = "txtNumTel";
-            txtNumTel.Size = new Size(190, 27);
+            txtNumTel.Size = new Size(167, 26);
             txtNumTel.TabIndex = 14;
             // 
             // dtpNasc
             // 
-            dtpNasc.Location = new Point(253, 261);
+            dtpNasc.CalendarFont = new Font("Candara", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            dtpNasc.Location = new Point(221, 196);
+            dtpNasc.Margin = new Padding(3, 2, 3, 2);
             dtpNasc.Name = "dtpNasc";
-            dtpNasc.Size = new Size(262, 27);
+            dtpNasc.Size = new Size(230, 23);
             dtpNasc.TabIndex = 16;
             // 
             // dtpCons
             // 
-            dtpCons.Location = new Point(253, 322);
+            dtpCons.Location = new Point(221, 242);
+            dtpCons.Margin = new Padding(3, 2, 3, 2);
             dtpCons.Name = "dtpCons";
-            dtpCons.Size = new Size(262, 27);
+            dtpCons.Size = new Size(230, 23);
             dtpCons.TabIndex = 17;
             // 
             // lblDataNasc
             // 
             lblDataNasc.AutoSize = true;
-            lblDataNasc.Location = new Point(57, 261);
+            lblDataNasc.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblDataNasc.Location = new Point(50, 193);
             lblDataNasc.Name = "lblDataNasc";
-            lblDataNasc.Size = new Size(145, 20);
+            lblDataNasc.Size = new Size(135, 18);
             lblDataNasc.TabIndex = 18;
             lblDataNasc.Text = "Data de nascimento:";
             // 
             // lblDataConsulta
             // 
             lblDataConsulta.AutoSize = true;
-            lblDataConsulta.Location = new Point(57, 322);
+            lblDataConsulta.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblDataConsulta.Location = new Point(50, 239);
             lblDataConsulta.Name = "lblDataConsulta";
-            lblDataConsulta.Size = new Size(170, 20);
+            lblDataConsulta.Size = new Size(155, 18);
             lblDataConsulta.TabIndex = 19;
             lblDataConsulta.Text = "Data da última consulta:";
             // 
             // panel1
             // 
             panel1.Controls.Add(ltvTodos);
-            panel1.Location = new Point(12, 367);
+            panel1.Location = new Point(10, 275);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1246, 309);
+            panel1.Size = new Size(1090, 232);
             panel1.TabIndex = 20;
             // 
             // ltvTodos
             // 
+            ltvTodos.Font = new Font("Candara", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             ltvTodos.FullRowSelect = true;
             ltvTodos.GridLines = true;
-            ltvTodos.Location = new Point(45, 21);
+            ltvTodos.Location = new Point(39, 16);
+            ltvTodos.Margin = new Padding(3, 2, 3, 2);
             ltvTodos.Name = "ltvTodos";
-            ltvTodos.Size = new Size(1160, 269);
+            ltvTodos.Size = new Size(1016, 203);
             ltvTodos.TabIndex = 0;
             ltvTodos.UseCompatibleStateImageBehavior = false;
             ltvTodos.DoubleClick += ltvTodos_DoubleClick;
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(587, 308);
+            btnSave.Location = new Point(514, 231);
+            btnSave.Margin = new Padding(3, 2, 3, 2);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(94, 29);
+            btnSave.Size = new Size(82, 22);
             btnSave.TabIndex = 21;
             btnSave.Text = "Salvar";
             btnSave.UseVisualStyleBackColor = true;
@@ -247,19 +279,33 @@
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(57, 345);
+            btnClear.Location = new Point(514, 198);
+            btnClear.Margin = new Padding(3, 2, 3, 2);
             btnClear.Name = "btnClear";
-            btnClear.Size = new Size(94, 29);
+            btnClear.Size = new Size(82, 22);
             btnClear.TabIndex = 22;
             btnClear.Text = "Limpar";
             btnClear.UseVisualStyleBackColor = true;
             btnClear.Click += btnClear_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("better - Personal Use", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(403, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(256, 45);
+            label1.TabIndex = 23;
+            label1.Text = "Clínica Veterinária";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // ClinicaVet
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1270, 688);
+            BackColor = Color.Thistle;
+            ClientSize = new Size(1111, 516);
+            Controls.Add(label1);
             Controls.Add(btnClear);
             Controls.Add(btnSave);
             Controls.Add(panel1);
@@ -283,6 +329,7 @@
             Controls.Add(txtEndereco);
             Controls.Add(lblNome);
             Controls.Add(txtNome);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "ClinicaVet";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
@@ -316,5 +363,6 @@
         private ListView ltvTodos;
         private Button btnSave;
         private Button btnClear;
+        private Label label1;
     }
 }
